@@ -1,0 +1,36 @@
+
+.about {
+    display: grid;
+    grid-template-rows: 100px auto;
+    max-width: 720px;
+}
+.about.animate {
+    animation: resize 300ms ease-in-out;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+}
+.about-show-text {
+    overflow: visible;
+}
+.about-hide-text {
+    overflow: hidden;
+    display: -webkit-box;
+    line-clamp: 5;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+@media screen and (width > 1280px) {
+    .about {
+        display: flex;
+        max-width: 720px;
+    }
+    .about.animate {
+        animation-play-state: paused;
+    }
+}
+@keyframes resize {
+    from { grid-template-rows: 100px auto;}
+    to { grid-template-rows: 1fr auto;}
+}
