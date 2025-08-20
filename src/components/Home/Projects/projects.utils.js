@@ -9,7 +9,7 @@ export const projects = [
         technologies: 'TypeScript | React | Strapi | Docker | NGINX | AWS',
         website: 'https://www.devcorner.top/',
         image: {
-            url: 'https://resourceboy.com/wp-content/uploads/2023/05/4-angles-of-macbook-mockups-on-the-table-1.jpg',
+            url: '/images/devcorner3.png',
             alt: 'Devcorner webpage'
         },
     }
