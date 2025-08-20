@@ -1,0 +1,52 @@
+.nav-link:hover::before {
+    background-color:  var(--color-whitep-500);
+    opacity: 1;
+    transform: scale(1);
+}
+.nav-link:active::before {
+    background-color: var(--color-orangep-500);
+}
+.nav-link::before {
+    position: absolute;
+    content: '';
+    bottom: -0.15rem;
+    left: 0;
+    right: 0;
+
+    transition-property: opacity, transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    transform-origin: center;
+    opacity: 0;
+    transform: scale(-0.01);
+    width: 1rem;
+    margin: auto;
+    min-height: 0.09rem;
+    z-index: 4;
+    background-color: transparent;
+}
+.nav-link {
+    width: 4.85rem;
+    text-align: center;
+    position: relative;
+}
+.nav-social-logo {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+}
+.nav-social-logo > svg {
+    width: 2rem;
+    height: 2rem;
+}
+.nav-social-logo:active path {
+    fill: var(--color-whitep-500);
+}
+.nav-logo-tiny {
+    display: flex;
+    width: 5rem;
+    height: 2rem;
+}
+.nav-logo-tiny > svg {
+    width: 1rem;
+}
