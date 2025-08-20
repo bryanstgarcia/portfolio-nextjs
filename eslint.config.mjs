@@ -44,6 +44,7 @@ const eslintFormatting = [
         { allowConstantExport: true },
       ],
       quotes: ["error", "single", { avoidEscape: true, allowTemplateLiterals: true }],
+      "@next/next/no-html-link-for-pages": "off"
     },
   },
 ]
