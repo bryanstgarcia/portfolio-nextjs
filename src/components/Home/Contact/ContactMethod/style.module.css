@@ -1,0 +1,29 @@
+
+
+.contactMethod:hover .contactImage svg path, .contactMethod:active .contactImage svg path {
+    fill: #F37B37;
+    transition: fill 0.4s ease-in-out;
+}
+
+.contactMethod:hover .contactDiv, .contactMethod:active .contactDiv {
+    background-color: #F37B37;
+    color: #FDFDFD;
+    transition: all 0.4s ease-in-out;
+}
+
+
+/* Ensure smooth transitions */
+.contactImage svg path {
+    transition: fill 0.4s ease-in-out;
+}
+
+.contactDiv {
+    transition: all 0.4s ease-in-out;
+}
+
+/* Make SVG icons fill the entire container */
+.contactImage svg, .contactImage svg path {
+    width: 76px;
+    height: 76px;
+    border-radius: 0;
+}
