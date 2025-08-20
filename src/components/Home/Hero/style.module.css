@@ -1,0 +1,18 @@
+.svg-size > svg {
+    width: 2.5rem;
+}
+
+.svg-size > svg path:first-child  {
+    border-radius: 0.25rem;
+}
+
+/* Hover effects for social media logos */
+.svg-size:hover > svg path {
+    fill: #F37B37; /* orange-500 color */
+    transition: fill 0.2s ease-in-out;
+}
+
+/* Ensure the transition works smoothly */
+.svg-size > svg path {
+    transition: fill 0.2s ease-in-out;
+}
