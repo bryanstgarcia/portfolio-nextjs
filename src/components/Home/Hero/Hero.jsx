@@ -13,7 +13,7 @@ export function Hero() {
 			<p className='relative z-2 flex flex-col lg:flex-row lg:items-center lg:gap-4 text-center font-light'>
 				<span className='text-4xl sm:text-2xl lg:text-2xl'>👋</span>
 				<span className='text-lg sm:text-2xl font-extralight'>
-					my name is <strong>Bryan García</strong> and I'm a{' '}
+					my name is <strong>Bryan García</strong> and I&apos;m a{' '}
 				</span>
 			</p>
 			<h1 className='relative z-2 flex flex-col text-5xl sm:text-6xl lg:text-7xl text-center gap-2'>
