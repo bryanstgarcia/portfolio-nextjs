@@ -25,8 +25,8 @@ export function About() {
                     while also understanding the backend processes that bring
                     them to life. My experience allows me to create
                     comprehensive digital solutions that drive business success.
-                    I'm dedicated to continuous learning and ready to tackle
-                    challenges that push the boundaries of what's possible,
+                    I&apos;m dedicated to continuous learning and ready to tackle
+                    challenges that push the boundaries of what&apos;s possible,
                     contributing real value to your business
                 </p>
 				{
