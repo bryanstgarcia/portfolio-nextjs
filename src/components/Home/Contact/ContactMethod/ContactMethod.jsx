@@ -1,4 +1,3 @@
-import React from "react";
 import styles from './style.module.css';
 
 export default function ContactMethod({ contactMethod, rounded=false }) {
@@ -8,7 +7,7 @@ export default function ContactMethod({ contactMethod, rounded=false }) {
             <div
                 className={`hidden  md:w-19 md:h-19 bg-whitep-500 
                     text-sm text-blackp-500 text-center font-bold md:flex md:justify-center ${
-                        rounded && "rounded-full flex justify-center items-center"
+                        rounded && 'rounded-full flex justify-center items-center'
                     } ${styles.contactDiv}`}
             >
                 <h3>{contactMethod.name}</h3>

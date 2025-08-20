@@ -1,11 +1,11 @@
 
 export const projects = [
     {
-        name: "Devcorner",
+        name: 'Devcorner',
         description:
-            "A blog sharing coding techniques, tools, and tips to help developers learn and grow.",
-        path: "/qr-code",
-        repo: "",
+            'A blog sharing coding techniques, tools, and tips to help developers learn and grow.',
+        path: '/qr-code',
+        repo: '',
         technologies: 'TypeScript | React | Strapi | Docker | NGINX | AWS',
         website: 'https://www.devcorner.top/',
         image: {

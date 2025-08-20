@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 export function Container({
-    id = "",
-    type = "div",
+    id = '',
+    type = 'div',
     background='',
     className='',
     children

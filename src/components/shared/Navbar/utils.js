@@ -13,12 +13,12 @@ export const handleRedirect =
     (event) => {
         event.preventDefault();
         let element = event.target;
-        let anchorElementDOMName = "A";
+        let anchorElementDOMName = 'A';
         while (element.nodeName !== anchorElementDOMName) {
             element = element.parentElement;
         }
         setTimeout(() => {
-            window.open(element.href, "_blank");
+            window.open(element.href, '_blank');
             action();
         }, 200);
         return false;
