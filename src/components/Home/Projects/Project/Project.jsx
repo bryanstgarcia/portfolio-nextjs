@@ -11,7 +11,7 @@ export function Project({ project }) {
                     {project.technologies}
                 </p>
             </div>
-            <div className='relative z-1 grid grid-cols-1 grid-rows-1 w-[80vw] h-120 md:w-95 md:h-125 rounded-[10px] bg-whitep-500 text-blackp-500'>
+            <div className='relative z-1 grid grid-cols-1 grid-rows-1 w-[80vw] h-125 md:w-95 md:h-125 rounded-[10px] bg-whitep-500 text-blackp-500'>
                 <img
                     className={`absolute row-span-full z-1 w-full h-full object-cover object-center rounded-[10px] md:grayscale group-hover:md:grayscale-0 transition-[filter] duration-400 ease-in-out`}
                     loading='lazy'
