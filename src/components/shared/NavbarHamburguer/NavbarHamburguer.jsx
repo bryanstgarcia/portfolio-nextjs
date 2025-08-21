@@ -3,6 +3,7 @@ export function NavbarHamburguer({ isOpen, handleClick }) {
 
 	return (
 		<button
+			aria-label='Menu'
 			onClick={handleClick}
 			className='flex flex-col justify-center items-center p-4 lg:hidden'
 		>
