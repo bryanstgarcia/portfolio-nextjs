@@ -1,10 +1,12 @@
+import path from 'path';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   // Ensure path aliases work in production
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
-      '@app': require('path').resolve(__dirname, 'src'),
+      '@app': path.resolve(__dirname, 'src'),
     };
     return config;
   },
