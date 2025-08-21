@@ -1,6 +1,6 @@
 export function SkillSet({ title, children }) {
     return (
-        <div className='grid grid-cols-[80px_80px_80px_80px] grid-rows-[80px_80px_80px] gap-2'>
+        <div className='grid grid-cols-[80px_80px_80px_80px] grid-rows-[80px_80px_80px] gap-2 lg:gap-1 xl:gap-2'>
             <div className={'flex justify-center items-center'}>
                 <img
                     className='h-full w-full'
