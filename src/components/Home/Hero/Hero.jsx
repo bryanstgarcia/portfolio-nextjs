@@ -8,7 +8,7 @@ export function Hero() {
             id='hero'
             type='section'
             background='bg-whitep-500'
-            className='relative h-[70dvh] max-h-150 text-blackp-500 bg-whitep-500 flex items-center justify-center flex-col gap-5 lg:pb-0 pb-30 sm:pb-40'
+            className='relative h-[70lvh] max-h-150 text-blackp-500 bg-whitep-500 flex items-center justify-center flex-col gap-5 lg:pb-0 pb-30 sm:pb-40'
         >
             <p className='relative z-2 flex flex-col lg:flex-row lg:items-center lg:gap-4 text-center font-light'>
                 <span className='text-4xl sm:text-2xl lg:text-2xl'>👋</span>
