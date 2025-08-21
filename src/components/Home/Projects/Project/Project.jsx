@@ -6,7 +6,7 @@ export function Project({ project }) {
             <div 
                 className='absolute z-3 w-[65vw]  md:w-75 h-20 md:h-20 top-[-40px] left-[50%] translate-x-[-50%] md:opacity-0 group-hover:md:opacity-100 transition-opacity ease-in-out duration-400 bg-whitep-500 text-blackp-500 p-3 rounded-xl rounded-bl-none shadow-md'
             >
-                <h4 className='text-sm font-bold leading-none'>Main tools:</h4>
+                <h3 className='text-sm font-bold leading-none'>Main tools:</h3>
                 <p className='text-sm font-thin'>
                     {project.technologies}
                 </p>

@@ -206,7 +206,7 @@ export const skills = {
         },
         {
             name: 'Jira',
-            imagePath: '/svg/jira.svg',
+            imagePath: '/svg/Jira.svg',
             imageAlt: 'Jira logo',
             width: 40,
             height: 40

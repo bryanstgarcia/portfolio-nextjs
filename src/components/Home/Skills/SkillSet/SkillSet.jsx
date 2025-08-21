@@ -8,6 +8,7 @@ export function SkillSet({ title, children }) {
                     width='100'
                     height='100'
                     loading='lazy'
+                    alt=''
                 />
             </div>
             <div
@@ -29,6 +30,7 @@ export function SkillSet({ title, children }) {
                     width='100'
                     height='100'
                     loading='lazy'
+                    alt=''
                 />
             </div>
         </div>

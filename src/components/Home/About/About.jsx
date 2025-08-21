@@ -7,8 +7,6 @@ import styles from './style.module.css';
 export function About() {
     const { seeMore, toggle } = useSeeMore();
 	const isMobile = useDeviceType()
-	console.log('IsMobile: ', isMobile)
-	console.log('seeMore: ', seeMore)
     return (
         <section id='about' className={`py-10 px-10 lg:py-20 lg:px-20 flex flex-col items-center bg-blackp-500`}>
             <div className={`${styles.about} ${seeMore ? styles.animate : ''}`}>

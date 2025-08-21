@@ -9,7 +9,7 @@ export const projects = [
         technologies: 'TypeScript | React | Strapi | Docker | NGINX | AWS',
         website: 'https://www.devcorner.top/',
         image: {
-            url: '/images/devcorner3.png',
+            url: '/images/devcorner.webp',
             alt: 'Devcorner webpage'
         },
     }

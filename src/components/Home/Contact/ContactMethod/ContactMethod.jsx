@@ -3,7 +3,8 @@ import styles from './style.module.css';
 export default function ContactMethod({ contactMethod, rounded=false }) {
     const { Icon } = contactMethod.image
     return (
-        <a className={`flex gap-1 group ${styles.contactMethod}`} href={contactMethod.source}>
+			
+        <a aria-label={`Go to ${contactMethod.name}`} className={`flex gap-1 group ${styles.contactMethod}`} href={contactMethod.source} >
             <div
                 className={`hidden  md:w-19 md:h-19 bg-whitep-500 
                     text-sm text-blackp-500 text-center font-bold md:flex md:justify-center ${
