@@ -12,7 +12,7 @@ export function Contact() {
         >
             <div className='flex flex-col gap-2 w-full'>
                 <h2 className='text-lg lg:text-3xl font-bold'>Contact</h2>
-                <p className='hidden md:block text-md md:text-md font-light text-balance'>
+                <p className='block text-md md:text-md font-light text-balance'>
                     You can contact me via LinkedIn, Github or send <br /> me an
                     email. <strong>I hope to hear from you soon!</strong>
                 </p>
