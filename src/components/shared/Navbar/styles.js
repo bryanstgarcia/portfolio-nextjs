@@ -3,7 +3,7 @@ export const navbarMobile = {
 		'right-0',
 		'grid',
 		'grid-cols-1',
-		'grid-rows-[50dvh_20dvh_10dvh]',
+		'grid-rows-[50dvh_20dvh_20dvh]',
 		'z-3',
 		'px-10',
 		'py-5',
