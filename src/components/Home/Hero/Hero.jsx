@@ -45,11 +45,11 @@ export function Hero() {
 				<div className='absolute z-1 bottom-1 right-0 md:right-[20%] lg:right-[5vw] 2xl:right-[55%] size-65 md:size-85 lg:size-90  bg-gray-400 rounded-full p-5 opacity-20'></div>
 				<div className='relative z-2 bottom-0 right-0 md:right-[20%] lg:right-[5vw] 2xl:right-[55%] size-65 md:size-85 lg:size-90 flex justify-center items-end'>
 					<picture>
-						<source srcSet='https://res.cloudinary.com/bryancloudinary/image/upload/v1740872168/de34687535d9b15a-sticker_tsiip7.png' media='(min-width: 1536px)' loading='eager' width={290} height={290}/>
-						<source srcSet='https://res.cloudinary.com/bryancloudinary/image/upload/v1740872168/de34687535d9b15a-sticker_tsiip7.png' media='(min-width: 768px)' loading='eager' width={250} height={250}/>
-						<source srcSet='https://res.cloudinary.com/bryancloudinary/image/upload/v1740872168/de34687535d9b15a-sticker_tsiip7.png' media='(min-width: 640px)' loading='eager' width={220} height={220}/>
-						<source srcSet='https://res.cloudinary.com/bryancloudinary/image/upload/v1740872168/de34687535d9b15a-sticker_tsiip7.png' media='(min-width: 480px)' loading='eager' width={200} height={200}/>
-						<img className='' src='https://res.cloudinary.com/bryancloudinary/image/upload/v1740872168/de34687535d9b15a-sticker_tsiip7.png' loading='eager' width={155} height={155}/>
+						<source srcSet='/images/bryanstgarcia.png' media='(min-width: 1536px)' loading='eager' width={290} height={290}/>
+						<source srcSet='/images/bryanstgarcia.png' media='(min-width: 768px)' loading='eager' width={250} height={250}/>
+						<source srcSet='/images/bryanstgarcia.png' media='(min-width: 640px)' loading='eager' width={220} height={220}/>
+						<source srcSet='/images/bryanstgarcia.png' media='(min-width: 480px)' loading='eager' width={200} height={200}/>
+						<img className='' alt='Bryan Garcia mimoji' src='/images/bryanstgarcia.png' loading='eager' width={155} height={155}/>
 					</picture>
 				</div>
 			</div>
