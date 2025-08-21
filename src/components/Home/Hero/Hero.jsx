@@ -21,7 +21,7 @@ export function Hero() {
                 <span className='font-regular tracking-widest'>Developer</span>
             </h1>
             <div className='relative z-2 flex gap-4 flex-row items-center justify-center'>
-                <a href='#work' className='cursor-pointer rounded-lg px-2.5 py-2 bg-orangep-500 text-blackp-500 font-light hover:bg-black hover:text-whitep-500 transition-color ease-in-out duration-400'>
+                <a href='#work' className='cursor-pointer rounded-lg px-2.5 py-2 bg-orangep-500 text-blackp-500 font-light active:bg-blackp-500 active:text-whitep-500 md:hover:bg-black md:hover:text-whitep-500 transition-color ease-in-out duration-100 md:duration-400'>
                     My work
                 </a>
                 <a
